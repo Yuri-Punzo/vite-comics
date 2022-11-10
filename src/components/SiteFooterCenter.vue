@@ -23,18 +23,17 @@ export default {
                 </div>
                 <div class="col-auto my_col">
                     <h2>DC</h2>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-
+                    <a href="">Term Of Use</a>
+                    <a href="">Privacy Policy(New)</a>
+                    <a href="">Ad Choices</a>
+                    <a href="">Advertising</a>
+                    <a href="">Jobs</a>
+                    <a href="">Subscriptions</a>
+                    <a href="">Talent Workshops</a>
+                    <a href="">CPSC Certificates</a>
+                    <a href="">Ratings</a>
+                    <a href="">Shop Help</a>
+                    <a href="">Contact Us</a>
                 </div>
                 <div class="col-auto my_col">
                     <h2>SITES</h2>
@@ -43,7 +42,9 @@ export default {
                     <a href="">DC Kids</a>
                     <a href="">DC Universe</a>
                     <a href="">DC Power Visa</a>
-
+                </div>
+                <div class="col my_col_end">
+                    <img src="../assets/img/dc-logo-bg.png" alt="">
                 </div>
             </div>
         </div>
@@ -51,7 +52,16 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+#site_footer_center {
+    padding: 1rem 0;
+    background-image: url(../assets/img/footer-bg.jpg);
+}
+
 .my_col {
+    h2 {
+        color: white;
+    }
+
     a {
         color: gray;
         font-size: 8;
@@ -61,6 +71,19 @@ export default {
         &:hover {
             color: #0282f9;
         }
+    }
+}
+
+.my_col_end {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+
+    img {
+        position: absolute;
+        top: -70px;
+        right: 150px;
+        height: 380px;
     }
 }
 </style>

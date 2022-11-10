@@ -1,3 +1,9 @@
+<!-- Descrizione:
+Create un nuovo progetto utilizzando Vite e Vue 3 e definite i componenti necessari per strutturare il layout come da screenshot allegato.
+Quando la struttura a macroblocchi è pronta, popolate le voci di menu dinamicamente usando i data del componente.
+Per oggi diamo priorità alla struttura: quando è tutto bello solido, passiamo al Sass!
+Bonus:
+Creare un componente aggiuntivo per gestire la fascia azzurra con le icone. -->
 <script setup>
 import { ref } from 'vue'
 
@@ -21,9 +27,8 @@ const count = ref(0)
 
   <p>
     Check out
-    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
-      >create-vue</a
-    >, the official Vue + Vite starter
+    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank">create-vue</a>, the official Vue + Vite
+    starter
   </p>
   <p>
     Install

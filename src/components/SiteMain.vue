@@ -6,7 +6,7 @@ export default {
 
 <template>
     <div id="site_main">
-        <h3>Contento Goes Here</h3>
+        <h3>Content Goes Here</h3>
     </div>
 </template>
 

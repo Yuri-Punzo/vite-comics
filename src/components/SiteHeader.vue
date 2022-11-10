@@ -82,7 +82,10 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-#site_header {}
+#site_header {
+    font-size: 12px;
+    font-weight: bold;
+}
 
 .logo {
     img {

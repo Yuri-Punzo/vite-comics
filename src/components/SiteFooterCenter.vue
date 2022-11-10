@@ -44,7 +44,7 @@ export default {
                     <a href="">DC Power Visa</a>
                 </div>
                 <div class="col my_col_end">
-                    <img src="../assets/img/dc-logo-bg.png" alt="">
+
                 </div>
             </div>
         </div>
@@ -78,12 +78,15 @@ export default {
     display: flex;
     justify-content: flex-end;
     position: relative;
+    background-image: url(../assets/img/dc-logo-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
 
-    img {
+    /* img {
         position: absolute;
         top: -70px;
         right: 270px;
         height: 380px;
-    }
+    } */
 }
 </style>

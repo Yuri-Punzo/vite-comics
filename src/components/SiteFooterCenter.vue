@@ -82,7 +82,7 @@ export default {
     img {
         position: absolute;
         top: -70px;
-        right: 150px;
+        right: 270px;
         height: 380px;
     }
 }

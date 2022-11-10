@@ -39,17 +39,21 @@ export default {
     background-color: #0282f9;
     color: white;
     font-size: 12px;
-    font-weight: bold;
 }
 
 .col {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1.5rem;
 
     img {
-        height: 30%;
+        height: 55px;
         padding: 0.5rem;
+    }
+
+    &:hover {
+        cursor: pointer;
     }
 }
 </style>

@@ -53,11 +53,12 @@ export default {
 
 <style lang="scss" scoped>
 #site_footer_center {
-    padding: 1rem 0;
     background-image: url(../assets/img/footer-bg.jpg);
 }
 
 .my_col {
+    padding: 2rem 1rem;
+
     h2 {
         color: white;
     }
@@ -75,18 +76,8 @@ export default {
 }
 
 .my_col_end {
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
     background-image: url(../assets/img/dc-logo-bg.png);
     background-repeat: no-repeat;
-    background-position: center;
-
-    /* img {
-        position: absolute;
-        top: -70px;
-        right: 270px;
-        height: 380px;
-    } */
+    background-position: right;
 }
 </style>

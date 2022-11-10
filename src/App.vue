@@ -34,6 +34,6 @@ export default {
   <!-- /site_footer -->
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 
 </style>

@@ -5,10 +5,19 @@ export default {
 </script>
 
 <template>
-    <p> Content Goes Here </p>
+    <div id="site_main">
+        <h3>Contento Goes Here</h3>
+    </div>
 </template>
 
-<style scoped>
-
+<style lang="scss" scoped>
+#site_main {
+    background-color: black;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 </style>
 

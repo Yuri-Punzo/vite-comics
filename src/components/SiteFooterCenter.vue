@@ -8,6 +8,6 @@ export default {
     <p>sono footer center</p>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 
 </style>

@@ -19,8 +19,9 @@ export default {
 
 <style lang="scss" scoped>
 img {
-    height: 200px;
+    height: 185px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
+    object-position: top;
 }
 </style>

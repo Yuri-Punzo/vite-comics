@@ -25,7 +25,7 @@ export default {
                     <span>COMIC SHOP LOCATOR</span>
                 </div>
                 <div class="col">
-                    <img src="../assets/img/buy-dc-power-visa.svg" alt="">
+                    <img id="svg_img" src="../assets/img/buy-dc-power-visa.svg" alt="">
                     <span>DC POWER VISA</span>
                 </div>
             </div>
@@ -54,6 +54,10 @@ export default {
 
     &:hover {
         cursor: pointer;
+    }
+
+    #svg_img {
+        width: 60px;
     }
 }
 </style>

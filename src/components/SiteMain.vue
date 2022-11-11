@@ -11,9 +11,6 @@ export default {
 
 <template>
     <div id="site_main">
-        <div class="position-relative">
-            <span class="curremt_series_tag">CURRENT SERIES</span>
-        </div>
 
         <Products />
 
@@ -37,16 +34,6 @@ export default {
     &:hover {
         cursor: pointer;
     }
-}
-
-.curremt_series_tag {
-    background-color: #0282f9;
-    padding: 0 1rem;
-    font-weight: bold;
-    font-size: 25px;
-    position: absolute;
-    top: -18px;
-    left: 160px;
 }
 </style>
 

@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-    <div class="col-2">
+    <div class="col">
         <div>
             <img :src="image" :alt="title">
             <h5 class="py-2">{{ title }}</h5>

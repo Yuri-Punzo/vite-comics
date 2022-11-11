@@ -120,6 +120,8 @@ a {
 
 .jumbotron {
     background-image: url(../assets/img/jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
     height: 400px;
 }
 </style>

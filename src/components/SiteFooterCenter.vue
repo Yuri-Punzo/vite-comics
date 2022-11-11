@@ -43,7 +43,7 @@ export default {
                     <a href="">DC Universe</a>
                     <a href="">DC Power Visa</a>
                 </div>
-                <div class="col my_col_end">
+                <div class="col col_dc_bg">
 
                 </div>
             </div>
@@ -75,7 +75,7 @@ export default {
     }
 }
 
-.my_col_end {
+.col_dc_bg {
     background-image: url(../assets/img/dc-logo-bg.png);
     background-repeat: no-repeat;
     background-position: right;

@@ -60,14 +60,15 @@ export default {
                     </div>
                 </div>
                 <div class="col">
-                    <nav class="navbar">
+                    <nav class="my_navbar">
                         <a :href="item.href" v-for="item in navbarMenu" :class="item.text === 'Comics' ? 'active' : ''">
                             {{ item.text.toUpperCase() }}
                         </a>
                     </nav>
                 </div>
             </div>
-
+        </div>
+        <div class="jumbotron">
 
         </div>
 
@@ -97,8 +98,8 @@ export default {
 
 .active {
     color: #0282f9;
-    padding-bottom: 30px;
     border-bottom: 4px solid #0282f9;
+    padding: 29px 0;
 }
 
 a {
@@ -112,8 +113,13 @@ a {
 
     &:focus {
         color: #0282f9;
-        padding-bottom: 30px;
         border-bottom: 4px solid #0282f9;
+        padding: 29px 0;
     }
+}
+
+.jumbotron {
+    background-image: url(../assets/img/jumbotron.jpg);
+    height: 400px;
 }
 </style>

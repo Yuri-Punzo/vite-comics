@@ -10,11 +10,17 @@ export default {
 
 <template>
     <div class="col-2">
-        <img :src="image" alt="">
-        <p>{{ title }}</p>
+        <div>
+            <img :src="image" :alt="title">
+            <h5 class="py-2">{{ title }}</h5>
+        </div>
     </div>
 </template>
 
 <style lang="scss" scoped>
-
+img {
+    height: 200px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
 </style>

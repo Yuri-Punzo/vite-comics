@@ -19,10 +19,6 @@ export default {
 #site_main {
     background-color: black;
     color: white;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 </style>
 

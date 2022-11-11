@@ -1,12 +1,17 @@
 <script>
+import Products from "./Products.vue"
+
 export default {
-    name: "SiteMain"
+    name: "SiteMain",
+    components: {
+        Products
+    }
 }
 </script>
 
 <template>
     <div id="site_main">
-        <h3>Content Goes Here</h3>
+        <Products />
     </div>
 </template>
 

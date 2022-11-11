@@ -18,10 +18,8 @@ export default {
                     <img src="../assets/img/footer-youtube.png" alt="">
                     <img src="../assets/img/footer-pinterest.png" alt="">
                     <img src="../assets/img/footer-periscope.png" alt="">
-
                 </div>
             </div>
-
         </div>
     </div>
 </template>
@@ -36,6 +34,11 @@ export default {
     padding: 0.5rem 1rem;
     border: 2px solid #0282fa;
     color: white;
+
+    &:hover {
+        background-color: #0282fa;
+        cursor: pointer;
+    }
 }
 
 .my_col {
